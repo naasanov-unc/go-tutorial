@@ -1,0 +1,14 @@
+{
+  "name": "Go Tutorial",
+  "image": "mcr.microsoft.com/devcontainers/go:1.22",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "go.gopath": "/go"
+      },
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  }
+}
